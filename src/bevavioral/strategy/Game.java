@@ -7,6 +7,7 @@ import bevavioral.strategy.weapon.Sword;
 public class Game {
 
     public static void main(String[] args) {
+
         Warrior personage = new Warrior();
 
         personage.setAttack(new Sword());

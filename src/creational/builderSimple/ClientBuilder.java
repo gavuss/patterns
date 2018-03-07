@@ -4,7 +4,7 @@ public class ClientBuilder {
 
     private String name;
     private String surname;
-    private String email;
+    private String email = "нет email";
     private String address;
 
     public ClientBuilder withName(String name) {

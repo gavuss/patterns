@@ -15,4 +15,8 @@ public class Soldier {
         System.out.println("Встал");
     }
 
+    public void sleep() {
+        System.out.println("Уснул");
+    }
+
 }

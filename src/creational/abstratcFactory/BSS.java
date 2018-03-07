@@ -11,10 +11,10 @@ public class BSS {
 
     public static void main(String[] args) throws IllegalAccessException {
 
-//        String bankName = "РОСКАП";
-        String bankName = "ВБРР";
+        String bankName = "РОСКАП";
+//        String bankName = "ВБРР";
 
-        //Создаем фабрику которая создаст нам команду ля нужного банка
+        //Создаем фабрику которая создаст нам команду для нужного банка
         ITeamFactory teamFactory = createTeamForBank(bankName);
 
         //Получаем из фабрики специалистов для работы

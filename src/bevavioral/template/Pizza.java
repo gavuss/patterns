@@ -2,7 +2,7 @@ package bevavioral.template;
 
 public abstract class Pizza {
 
-    public void cookPizza() {
+    final public void cookPizza() {
         makeDough();
         addIngredients();
         bake();

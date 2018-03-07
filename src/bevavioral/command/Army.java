@@ -2,6 +2,7 @@ package bevavioral.command;
 
 import bevavioral.command.action.GetUpCommand;
 import bevavioral.command.action.LieDownCommand;
+import bevavioral.command.action.SleepCommand;
 import bevavioral.command.action.WrungOutCommand;
 
 public class Army {
@@ -12,7 +13,8 @@ public class Army {
         Sergeant sergeant = new Sergeant(
                 new LieDownCommand(soldier),
                 new WrungOutCommand(soldier),
-                new GetUpCommand(soldier));
+                new GetUpCommand(soldier),
+                new SleepCommand(soldier));
 
         System.out.println("Sergeant gives command!");
         System.out.println();
@@ -20,5 +22,6 @@ public class Army {
         sergeant.lieDown();
         sergeant.wrungOut();
         sergeant.getUp();
+        sergeant.getSleep();
     }
 }

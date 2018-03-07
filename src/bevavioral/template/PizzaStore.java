@@ -5,9 +5,8 @@ public class PizzaStore {
     public static void main(String[] args) {
         Pizza cheesePizza = new CheesePizza();
         Pizza pepperoniPizza = new PepperoniPizza();
+        Pizza Margarita = new Margarita();
 
-        cheesePizza.cookPizza();
-        System.out.println("\n==========================\n");
-        pepperoniPizza.cookPizza();
+        Margarita.cookPizza();
     }
 }
